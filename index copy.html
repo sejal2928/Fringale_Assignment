@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-section">
+            <header>
+                <h1>Find good Food around you</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search your fav food">
+                </div>
+            </header>
+            <div class="filters">
+                <button class="filter-button">Set Meal</button>
+                <button class="filter-button">Hot sale</button>
+                <button class="filter-button">Popularity</button>
+            </div>
+            <div class="food-items">
+                <div class="food-item">
+                    <img src="https://via.placeholder.com/100" alt="Cheese Pizza">
+                    <div class="food-info">
+                        <h2>Cheese Pizza</h2>
+                        <p>$12.99</p>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <img src="https://via.placeholder.com/100" alt="Fruit Cake">
+                    <div class="food-info">
+                        <h2>Fruit Cake</h2>
+                        <p>$4.88</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-section">
+            <header>
+                <h1>Cart Food</h1>
+            </header>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="https://via.placeholder.com/50" alt="Orange Sandwiches">
+                    <div class="cart-info">
+                        <h2>Orange Sandwiches</h2>
+                        <p>$12.00</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <input type="text" value="1">
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="https://via.placeholder.com/50" alt="Sai Ua Samun Phrai">
+                    <div class="cart-info">
+                        <h2>Sai Ua Samun Phrai</h2>
+                        <p>$18.00</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <input type="text" value="1">
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="https://via.placeholder.com/50" alt="Fruit Cake">
+                    <div class="cart-info">
+                        <h2>Fruit Cake</h2>
+                        <p>$4.88</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <input type="text" value="1">
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <p>Item total: $47.00</p>
+                <p>Delivery charge: $1.00</p>
+                <p>Tax: $0.50</p>
+                <h2>Total: $36.38</h2>
+                <button class="checkout">Checkout</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
