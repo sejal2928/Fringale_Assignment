@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf2e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.search-section, .cart-section {
+    padding: 20px;
+    width: 300px;
+}
+
+.search-section header, .cart-section header {
+    margin-bottom: 20px;
+}
+
+.search-section h1, .cart-section h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.food-items, .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.food-item, .cart-item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.food-item img, .cart-item img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.food-info, .cart-info {
+    flex-grow: 1;
+}
+
+.food-info h2, .cart-info h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.food-info p, .cart-info p {
+    margin: 5px 0 0;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quantity input {
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+.summary p {
+    margin: 5px 0;
+}
+
+.summary h2 {
+    margin: 10px 0;
+}
+
+.checkout {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
