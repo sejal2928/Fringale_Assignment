@@ -1,9 +1,11 @@
 # Fringale_Assignment
 
-Project Overview
-Welcome to the Food Delivery Website Frontend project! This project was developed during my internship at Fringale, where I worked as a frontend designer. The website aims to provide a seamless and visually appealing experience for users looking to order food online. It includes various features such as home, about, menu, cart, order, popular items, login page, newsletter, and blogs.
+#Project Overview 
 
-Features
+#Welcome to the Food Delivery Website Frontend project! This project was developed during my internship at Fringale, where I worked as a frontend designer. The website aims to provide a seamless and visually appealing experience for users looking to order food online. It includes various features such as home, about, menu, cart, order, popular items, login page, newsletter, and blogs.
+
+#Features :-
+
 Home: The landing page of the website, featuring a welcoming layout with an overview of the services.
 About: A section providing information about the company, its mission, and values.
 Menu: A detailed list of available food items with descriptions, images, and prices.
@@ -17,7 +19,10 @@ Design Elements
 Colors: The website uses a vibrant and engaging color scheme to attract and retain user attention.
 Templates: Custom templates were designed to ensure a consistent and professional look across all pages.
 Responsive Design: The website is designed to be fully responsive, ensuring a seamless experience on both desktop and mobile devices.
-Technologies Used
+
+
+Technologies Used :
+
 HTML: For structuring the content of the website.
 CSS: For styling and layout, including the use of CSS Grid and Flexbox for responsive design.
 JavaScript: For adding interactivity and dynamic features to the website.
